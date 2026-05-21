@@ -1,0 +1,27 @@
+{
+  "log": {
+    "loglevel": "warning"
+  },
+  "inbounds": [{
+    "port": 8880,
+    "protocol": "vless",
+    "settings": {
+      "clients": [{
+        "id": "392692a2-4cf5-4160-b5d2-80eb2546ee5e",
+        "level": 0,
+        "email": "net@railway.io"
+      }],
+      "decryption": "none"
+    },
+    "streamSettings": {
+      "network": "ws",
+      "wsSettings": {
+        "path": "/vless"
+      }
+    }
+  }],
+  "outbounds": [{
+    "protocol": "freedom",
+    "settings": {}
+  }]
+}
